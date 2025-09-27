@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cinzel&family=Inconsolata&family=Lobster&family=Metal+Mania&family=MuseoModerno&family=Noto+Sans+HK&family=Pacifico&display=swap');
+
+
+:root {
+  --wooden: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/wooden.jpg");
+  --forest: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/forest.jpg");
+  --sweets: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/sweets1.jpg");
+  --bubbles: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/bubbles.jpg");
+  --crackle: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/crackle.jpg");
+  --sparkle: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/sparkle.jpg");
+  --rainbow: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-paint.jpg");
+  --smoke: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-smoke.jpg");
+  --nightsky: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/nightsky.jpg");
+  --sunset: url("https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/sunset.jpg");
+
+  /* COLORS */
+    --blood: #8a0303;
+    --slime: #228B22;
+    --gloom: #2B363B;
+    --candy: #ee698e;
+    --purple: #7B1E7A;
+    --blue: #2176AE;
+    --olive: #A6C48A;
+    --royal: #0A1045;
+    --lilac: #B8AED6;
+    --snow: #f4f9e9;
+
+  /* FONTS */
+
+  --scary-font: "Metal Mania";
+  --typewriter-font: "Inconsolata";
+  --funny-font: "Balsamiq Sans";
+  --curly-font: "Pacifico";
+  --old-style-font: "Cinzel";
+  --simple-font: "Noto Sans HK";
+  --funky-font: "Museo Moderno";
+  --sweet-font: "Lobster";
+}
+
+body {
+  background: var(--nightsky) no-repeat center center fixed;
+  padding-top: 15px;
+  background-size: cover;
+  color: var(--main-color);
+  --main-color: var(--lilac);
+  font-family: var(--curly-font)
+}
+
+h2 {
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+.grid {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+.item {
+  margin: 0 0 10px;
+  position: relative;
+}
+
+html {
+  padding: 0 20px;
+}
+
+.img {
+  box-sizing: border-box;
+  width: 100% !important;
+  height: auto !important;
+  border: 5px solid var(--main-color);
+  border-image: var(--bubbles) 100;
+}
+
+.caption {
+  display: none;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+}
+
+.caption a {
+  color: white;
+}
+
+.item:hover .caption {
+  display: block;
+}
+

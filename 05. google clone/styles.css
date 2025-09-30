@@ -1,19 +1,17 @@
-input {
+.main {
+  margin-top: 100px;
+}
+/* Challenge - part 2: 
+Replace the element selectors with class selectors */
+
+.logo-img {
+  width: 300px;
+  display: block;
+}
+.search-input {
   width: 400px;
   display: block;
 }
 
-/* Challenge: 
-Add some space (margin) above our image!
-Do you remember how we added spacing in the 
-cookie widget example?
-*/
 
-img {
-  margin-top: 100px;
-  width: 300px;
-  display: block;
-
-
-}
 

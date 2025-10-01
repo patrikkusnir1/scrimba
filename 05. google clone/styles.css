@@ -2,10 +2,6 @@
   margin-top: 100px;
 
 }
-/*
-Challenge:
-Center the logo and the search field.
-*/
 
 .logo-img {
   width: 300px;
@@ -36,7 +32,7 @@ Center the button and add some space above it
 
 .btn {
   display: block;
-  /* width: 120px; */
+  /* width: 120px; not needed */
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;

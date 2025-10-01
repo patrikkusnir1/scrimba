@@ -9,12 +9,13 @@ body {
 .card {
   padding: 20px;
   display: flex;
+  justify-content: space-around;
 }
 
 /*
 Challenge:
-Create a utility class for the dotted blue border.
-Give the class to both flexbox children in the HTML.
+Add horizontal space around the flex children.
+Hint: google "justify content"
 */
 
 .border-blue {

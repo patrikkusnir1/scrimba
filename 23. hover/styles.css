@@ -1,0 +1,15 @@
+a {
+  text-align: center;
+  color: white;
+  margin: 5px;
+  padding: 25px 0;
+  background-color: #e5383b;
+  font-size: 30px;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("eyes.jpg")
+}
